@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-b0336aa6-f676-449f-8ea4-27a87fd0c624"></div>
+    
+    <p id="CustomImage">
+    check;
+    </p>
+    
+    <script>
+    
+        //     const triggerOne = document.getElementById('CustomImage');
+        //     const loadOffer = document.querySelector(`body > div:nth-child(6) > div`);
+        //     //const loadOffer = document.querySelector('.kdmGUx');
+        //     for (let name of document.body.classList) {
+        //         console.log(name);
+        //     }
+        //    // console.log(loadOffer.className);
+        //     triggerOne.addEventListener('click', function() {
+        //         console.log('test');
+        //     // loadOffer.classList.toggle("eGEBgd");
+        //     // loadOffer.classList.toggle("eapp-popup-layout-variation-modal-component-exit-done");
+        //     // loadOffer.classList.add("kdmGUx");
+        //     // loadOffer.classList.add("eapp-popup-layout-variation-modal-component-enter-done");
+        let loadPopup;
+        document.onload=()=>{loadPopup=document.querySelector(`.FlexContainer-lh6d3k-0`)
+        console.log(loadPopup.className);
+        const triggerOne = document.getElementById('CustomImage');
+        triggerOne.addEventListener('click', function() {
+            console.log('test');
+            loadPopup.classList.remove(`eGEBgd`);
+            loadPopup.classList.remove(`eapp-popup-layout-variation-modal-component-exit-done`);
+            loadPopup.classList.add(`kdmGUx`);
+            loadPopup.classList.add(`eapp-popup-layout-variation-modal-component-enter-done`);
+     
+        })}
+        
+        
+    </script>
+</body>
+</html>
+
+
